@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir -p tmpupdate && cd $_
+curl -s https://raw.githubusercontent.com/markshust/honasa-commerce-infra/master/lib/template | bash
+rm -rf .git
+rsync -av ./ ../
+cd ..
+rm -rf tmpupdate
+echo "honasa-commerce-infra has been updated, run bin/restart to apply the updates"
