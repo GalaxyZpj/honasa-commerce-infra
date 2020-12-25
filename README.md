@@ -68,7 +68,7 @@ open https://dev-commerce.test
 
 ```bash
 # Download the Docker Compose template:
-curl -s https://raw.githubusercontent.com/ikevinsolomon/honasa-commerce-infra/master/installer/template | bash
+curl -s https://raw.githubusercontent.com/Honasa-Engineering/honasa-commerce-infra/master/installer/template | bash
 
 # Replace with existing source code of your existing Magento instance:
 cp -R ~/Sites/existing src
@@ -105,7 +105,7 @@ bin/restart
 open https://dev-commerce.test
 ```
 
-> For more details on how everything works, see the extended [setup readme](https://github.com/ikevinsolomon/honasa-commerce-infra/blob/master/SETUP.md).
+> For more details on how everything works, see the extended [setup readme](https://github.com/Honasa-Engineering/honasa-commerce-infra/blob/master/SETUP.md).
 
 ## Updates
 
